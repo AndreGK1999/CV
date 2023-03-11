@@ -1,0 +1,211 @@
+html {
+    height: 100%;
+}
+
+p {
+    font-size: 1.8rem;
+    color: #2F58CD;
+    margin: 5% 15%;
+
+}
+
+/* ENCABEZADO  */
+#encabezado {
+    background-color: #537FE7; 
+    text-align: center;
+    font-family: 'Tilt Neon', cursive;
+    width: 100%;
+    height: 650px;
+    margin: 0;
+}
+
+.titulo {
+    display: block;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: #2B3467;
+    padding: 3% 5%;
+}
+
+.cloud-top {
+    position: absolute;
+    top: 10%;
+    right: 15%;
+}
+
+.cloud-bottom {
+    position: absolute;
+    bottom: 30%;
+    left: 20%;
+}
+
+.mountain {
+    width: 40.5%;
+    position: relative;
+    bottom: 100px; 
+}
+
+@media (max-width:800px) {
+
+    .mountain {
+        width: 80%;
+        position: relative;
+        bottom: 40px;
+        
+    }
+
+    .cloud-top {
+        display: none;
+    }
+
+    .cloud-bottom {
+        display: none;
+    }
+}
+
+/* INTRODUCCION */
+
+#intro {
+    background-color: #85CDFD;
+    text-align: center;
+    padding: 3% 7%;
+}
+
+.mi-foto {
+  width: 18%;
+  margin: 3%;
+  position: relative;
+  bottom: 20px;
+}
+
+@media (max-width:900px) {
+    .mi-foto {
+        width: 45%;
+    }
+}
+
+.intro-titles {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: #2B3467;
+    font-size: 2.7rem;
+    line-height: 1.2;
+}
+
+.descripcion {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    margin: 3%;
+}
+
+/* HABILIDADES */
+.gifs {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply; /*DESHACER FONDO BLANCO */
+    height: 100px;
+    width: 100px;
+}
+
+@media (max-width:600px) {
+    .gifs {
+        filter: brightness(1.1);
+        mix-blend-mode: multiply; /*DESHACER FONDO BLANCO */
+        height: 40px;
+        width: 40px;
+    }
+}
+
+.one {
+    position: absolute;
+    left: 5%;
+}
+
+.two {
+    position: absolute;
+    right: 5%;
+}
+
+#habilidades {
+    display: block;
+    background-color: #62CDFF;
+    padding: 5% 10%;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+    color: #2B3467;
+    font-weight: bolder;
+}
+
+.skills-title {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: #2B3467;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.carousel-inner {
+    padding: 5%;
+    height: 400px;
+}
+
+.carousel-titles {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+    color: #2B3467;
+    font-weight: bolder;
+}
+
+/* EXPERIENCIA  */
+#exp {
+    text-align: center;
+    background-color: #537FE7;
+    padding: 5%;
+}
+
+.exp-title {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3rem;
+    color: #2B3467;
+    font-weight: bolder;
+    margin-bottom: 5%;
+}
+
+.list-group{
+    background-color: #2F58CD;
+    margin: 5%;
+    table-layout: fixed;
+}
+
+#contactame {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.6rem;
+    padding: 3% 5%;
+}
+
+#pie-pag {
+    background-color: #2B3467;
+    text-align: center;
+    padding: 3% 5%;
+}
+
+.copyright {
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 2%;
+}
+
+.footer-link {
+    font-size: 1.4rem;
+    font-family: Arial, 'Quicksand', sans-serif;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+
+.footer-link:hover {
+    color: beige;
+}
