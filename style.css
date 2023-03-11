@@ -27,18 +27,6 @@ p {
     padding: 3% 5%;
 }
 
-.cloud-top {
-    position: absolute;
-    top: 10%;
-    right: 15%;
-}
-
-.cloud-bottom {
-    position: absolute;
-    bottom: 30%;
-    left: 20%;
-}
-
 .mountain {
     width: 40.5%;
     position: relative;
@@ -52,14 +40,6 @@ p {
         position: relative;
         bottom: 40px;
         
-    }
-
-    .cloud-top {
-        visibility: hidden;
-    }
-
-    .cloud-bottom {
-        visibility: hidden;
     }
 }
 
